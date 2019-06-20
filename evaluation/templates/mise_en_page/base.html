@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte d'identité-{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static '../static/css/style.css' %}">
+    <link rel="stylesheet" href="{% static '../static/css/etudiant.css' %}">
+    <link rel="stylesheet" href="{% static '../static/css/voiretudiant.css' %}">
+    <link rel="stylesheet" href="{% static '../static/css/responsive.css' %}">
+    <link rel="shortcut icon" type="images/x-icon" href="{% static '../static/images/home.png' %}">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  </head>
+  <body id="contentgeneral">
+    <div class="page">
+      <div class="header">
+          {% include 'mise_en_page/nav.html' %}
+      </div>
+      <div class="body">
+        {% block content %}
+        {% endblock %}
+      </div>
+      <div class="pied">
+          {% include 'mise_en_page/footer.html' %}
+      </div>
+    </div>
+  </body>
+</html>

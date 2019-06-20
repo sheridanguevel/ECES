@@ -1,0 +1,11 @@
+{% load static %}
+<nav>
+  <div class="en_tete">
+    <img src="{% static '../static/images/1 (45).png'%}" alt="pic">
+    <ul class="navbar">
+      <li><a href="http://127.0.0.1:8000/admin">Administrateur</a></li>
+      <li><a href="{% url 'etudiant' %}">Etudiants</a></li>
+      <li><a href="{% url 'acceuil' %}">Acceuil</a></li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,122 @@
+.ib{
+  display: inline-block;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+  color: white;
+}
+#contentgeneral{
+  /*background-image: url('/static/images/1 (142).jpg');*/
+  background-image: url('/static/images/Naruto/184716.jpg');
+}
+.inchange{
+    display: inline-block;
+  }
+.header{
+
+}
+.body{
+  padding-bottom: 74px;
+}
+.pied{
+  background-color: #156278;
+}
+.en_tete img{
+  border-radius: 4px;
+  height: 100%;
+  width:25%;
+}
+.en_tete img:hover{
+  box-shadow: 9px 1px 10px 1px  #156278;
+}
+img{
+  width: 220px;
+  height: 220px;
+  border-radius: 120px;
+}
+.en_tete{
+  background-color: #156278;
+  height: 90px;
+}
+.navbar{
+  float: right;
+}
+
+.navbar li{
+  list-style: none;
+  float: right;
+  margin-top: 20px;
+}
+.navbar a:hover{
+  color:lightgreen;
+  text-decoration: underline;
+}
+
+.navbar a{
+  text-decoration: none;
+  margin-right: 19px;
+  font-size: 30px;
+  color: white;
+}
+
+.contenu{
+  width: 90%;
+  margin: 121px auto;
+}
+.gauche{
+  float: left;
+  width: 20%;
+}
+.gauche img{
+  margin-left: 50px;
+}
+.droite{
+  float: right;
+  width: 69%;
+}
+.droite p{
+  text-align: justify;
+}
+.droite section{
+  text-align: justify;
+  padding: 24px;
+}
+.droite section ul{
+  list-style: none;
+}
+abbr{
+  text-decoration: none;
+  color: #156278;
+}
+abbr:hover{
+  text-transform:   full-width;
+  text-decoration-style: wavy;
+  cursor:  pointer;
+}
+.droite section ul li{
+  padding: 3px;
+}
+.droite section ul li a{
+  text-decoration: none;
+  color: #156278;
+}
+.droite section ul li a:hover{
+  color: lime;
+}
+.page{
+}
+.pied p{
+  text-align: center;
+}
+.pied {
+  text-align: center;
+}
+ .pied a{
+    text-decoration: none;
+  }
+.pied a:hover{
+  color: blue;
+  text-decoration: none;
+  }

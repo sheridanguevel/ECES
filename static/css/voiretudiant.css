@@ -1,0 +1,64 @@
+@import "style.css";
+
+
+.infos_generale{
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+  text-align: justify;
+  padding: 0;
+  width: 70%;
+  margin: 150px auto;
+}
+.infos_generale .photo{
+  float: left;
+}
+.infos_generale .autres p .memecouleur{
+  color:  white;
+}
+.infos_generale .autres p{
+  margin-top: 3%;
+  color: white;
+  margin-top: 7%;
+}
+.infos_generale .photo img{
+  border-radius: 20px;
+}
+.infos_generale .autres{
+  float: left;
+  text-align: justify;
+  margin-left: 190%;
+  margin-top: 5%;
+}
+.infos_generale .autres .matricule{
+  float: right;
+  margin-right: 60%;
+
+}
+.infos_generale .autres .nom{
+  float: right;
+  margin-right: 50%;
+}
+.infos_generale .autres .prenom{
+  float: right;
+  margin-right: 50%;
+}
+.infos_generale .autres .option{
+  float: right;
+  margin-right: 69%;
+}
+.infos_generale .autres .niveau{
+  float: right;
+  margin-right: 69%
+}
+.infos_generale .autres .adresse{
+  float: right;
+}
+.infos_generale .autres .description{
+  float: right;
+  margin-right: 48%;
+}
+.infos_generale .ib .photo img:hover{
+  transform: scale(1.1) rotate(10deg) ;
+}
+.infos_generale .ib .photo img{
+  transition: 0.5s;
+}

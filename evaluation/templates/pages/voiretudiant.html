@@ -1,0 +1,20 @@
+{%  extends 'mise_en_page/base.html' %}
+{% block title %}Detail étudiant(e){% endblock %}
+{% block content %}
+  <div class="infos_generale">
+  <div class="ib">
+    <div class="photo">
+      <img src="{{ object.photo.url }}" alt="photo de profil">
+    </div>
+    <div class="autres">
+      <p>Matricule:<b class="memecouleur"> {{ object.matricule }}</b><br></p>
+      <p>Nom: <b class="memecouleur"> {{ object.nom|upper }}</b><br></p>
+      <p>prenom: <b class="memecouleur"> {{ object.prenom|title }}</b><br></p>
+      <p>Adresse:<b class="memecouleur"> {{ object.adresse|title }}</b><br></p>
+      <p>Option:<b class="memecouleur"> {{ object.option|upper }}</b><br></p>
+      <p>Niveau:<b class="memecouleur"> {{ object.niveau|title }}</b><br></p>
+      <p>Description:<b class="memecouleur">{{ object.description|title }}</b><br></p>
+    </div>
+  </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,354 @@
+@media only screen and (max-width: 479px) {
+  nav .navbar{
+
+    }
+    .listetudiant .listheader{
+      width: 100%;
+      margin: 50px auto;
+    }
+    .listetudiant .listcontent{
+      margin: 4px;
+      width: 99%;
+    }
+    .pied p{
+    text-align: center;
+  }
+  .pied p{
+  text-align: center;
+  }
+  .pied {
+  text-align: center;
+  }
+  .pied a{
+    text-decoration: none;
+  }
+  .pied a:hover{
+    color: blue;
+    text-decoration: none;
+  }
+  .en_tete img{
+    display: none;
+  }
+  .en_tete a{
+    font-size: 20px;
+  }
+  .contenu .droite{
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+  }
+  .contenu .gauche{
+    width: 100%;
+  }
+  .contenu{
+    margin: 50px auto;
+    width: 90%;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .inchange{
+    display: inline-block;
+  }
+   .infos_generale .ib .photo img:hover{
+     transform: scale(1.1) rotate(10deg) ;
+   }
+  .infos_generale .ib .photo img{
+    margin-top: -29%;
+    margin-left: 10%;
+    padding: 0;
+    border-radius: 50%;
+  }
+  .infos_generale  .autres{
+    float: clear;
+    margin-left: 5%;
+    padding: 0;
+    /*width: 110%;*/
+  }
+}
+@media (max-width: 576px) {
+ #contentgeneral {
+    max-width: 540px;
+  }
+  .listetudiant .listheader{
+    width: 100%;
+    margin: 50px auto;
+  }
+  .listetudiant .listcontent{
+    margin: 4px;
+    width: 99%;
+  }
+  .pied p{
+  text-align: center;
+}
+.pied p{
+text-align: center;
+}
+.pied {
+text-align: center;
+}
+.pied a{
+  text-decoration: none;
+}
+.pied a:hover{
+  color: blue;
+  text-decoration: none;
+}
+.en_tete img{
+  /*display: none;*/
+}
+.en_tete a{
+  font-size: 20px;
+}
+.contenu .droite{
+/*  width: inherit;
+  margin: 0;
+  padding: 5px;*/
+  float: right;
+  width: 69%;
+}
+.contenu .gauche{
+  width: 100%;
+}
+.contenu{
+  margin: 50px auto;
+  width: 90%;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.inchange{
+  display: inline-block;
+}
+ .infos_generale .ib .photo img:hover{
+   transform: scale(1.1) rotate(10deg) ;
+ }
+.infos_generale .ib .photo img{
+  margin-top: -29%;
+  margin-left: 10%;
+  padding: 0;
+  border-radius: 50%;
+}
+.infos_generale  .autres{
+  float: clear;
+  margin-left: 5%;
+  padding: 0;
+  /*width: 110%;*/
+}
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .container {
+    max-width: 540px;
+  }
+  .listetudiant .listheader{
+    width: 100%;
+    margin: 50px auto;
+  }
+  .listetudiant .listcontent{
+    margin: 4px;
+    width: 99%;
+  }
+  .pied p{
+  text-align: center;
+}
+.pied p{
+text-align: center;
+}
+.pied {
+text-align: center;
+}
+.pied a{
+  text-decoration: none;
+}
+.pied a:hover{
+  color: blue;
+  text-decoration: none;
+}
+.en_tete img{
+  /*display: none;*/
+}
+.en_tete a{
+  font-size: 20px;
+}
+.contenu .droite{
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+}
+.contenu .gauche{
+  width: 100%;
+}
+.contenu{
+  margin: 50px auto;
+  width: 90%;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.inchange{
+  display: inline-block;
+}
+ .infos_generale .ib .photo img:hover{
+   transform: scale(1.1) rotate(10deg) ;
+ }
+.infos_generale .ib .photo img{
+  margin-top: -29%;
+  margin-left: 10%;
+  padding: 0;
+  border-radius: 50%;
+}
+.infos_generale  .autres{
+  float: clear;
+  margin-left: 5%;
+  padding: 0;
+  /*width: 110%;*/
+}
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+.listetudiant .listheader{
+  width: 100%;
+  margin: 50px auto;
+}
+.listetudiant .listcontent{
+  margin: 4px;
+  width: 99%;
+}
+.pied p{
+text-align: center;
+}
+.pied p{
+text-align: center;
+}
+.pied {
+text-align: center;
+}
+.pied a{
+text-decoration: none;
+}
+.pied a:hover{
+color: blue;
+text-decoration: none;
+}
+.en_tete img{
+/*display: none;*/
+}
+.en_tete a{
+font-size: 20px;
+}
+.contenu .droite{
+width: 100%;
+margin: 0;
+padding: 5px;
+}
+.contenu .gauche{
+width: 100%;
+}
+.contenu{
+margin: 50px auto;
+width: 90%;
+}
+*{
+margin: 0;
+padding: 0;
+}
+.inchange{
+display: inline-block;
+}
+.infos_generale .ib .photo img:hover{
+ transform: scale(1.1) rotate(10deg) ;
+}
+.infos_generale .ib .photo img{
+margin-top: -29%;
+margin-left: 10%;
+padding: 0;
+border-radius: 50%;
+}
+.infos_generale  .autres{
+float: clear;
+margin-left: 5%;
+padding: 0;
+/*width: 110%;*/
+}
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.listetudiant .listheader{
+  width: 100%;
+  margin: 50px auto;
+}
+.listetudiant .listcontent{
+  margin: 4px;
+  width: 99%;
+}
+.pied p{
+text-align: center;
+}
+.pied p{
+text-align: center;
+}
+.pied {
+text-align: center;
+}
+.pied a{
+text-decoration: none;
+}
+.pied a:hover{
+color: blue;
+text-decoration: none;
+}
+.en_tete img{
+/*display: none;*/
+}
+.en_tete a{
+font-size: 20px;
+}
+.contenu .droite{
+width: 100%;
+margin: 0;
+padding: 5px;
+}
+.contenu .gauche{
+width: 100%;
+}
+.contenu{
+margin: 50px auto;
+width: 90%;
+}
+*{
+margin: 0;
+padding: 0;
+}
+.inchange{
+display: inline-block;
+}
+.infos_generale .ib .photo img:hover{
+ transform: scale(1.1) rotate(10deg) ;
+}
+.infos_generale .ib .photo img{
+margin-top: -29%;
+margin-left: 10%;
+padding: 0;
+border-radius: 50%;
+}
+.infos_generale  .autres{
+float: clear;
+margin-left: 5%;
+padding: 0;
+/*width: 110%;*/
+}
+}

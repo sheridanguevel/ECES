@@ -1,0 +1,33 @@
+{%  extends 'mise_en_page/base.html' %}
+{% load static %}
+{% block title %}Acceuil{% endblock %}
+{% block content %}
+<div class="contenu">
+  <div class="inchange">
+    <div class="gauche">
+      <img src="{% static '../static/images/Instashot.jpeg' %}"  alt="sheridan">
+    </div>
+    <div class="droite">
+      <p>
+        <h3>Salut et Bienvenue dans ce mini projet! </h3>
+        Il est mon tout premier réalisé avec le Framework web de Python <b>DJANGO</b>. Le but de ce projet est de pouvoir Produire une carte d'identitée pour
+         les Etudiants de mon école    <abbr title="Ecole Communautaire de l'Enseignement Superieur">ECES</abbr>. Vous remarquerez que sur ma bare de navigation
+         je dispose trois liens HyperText dont  les noms sont bien signifiants..
+         <section>
+           <ul type='1'>
+             <li><a href="{% url 'acceuil' %}">Acceuil</a>: vous redirigera vers la page d'acceuil de ce site</li>
+             <li><a href="{% url 'etudiant' %}">Etudiants</a>: vous redirigera vers la page qui liste les étudiants présents dans ma <abbr title="Bases des Données">BDD</abbr> de ce site
+                une fois dans la page étudiants vous avez la possibilité de cliquer sur le nom d'un etudiant pour voir ses informations complete
+             </li>
+             <li><a href="http://127.0.0.1:8000/admin">Administrateur</a>: espace reservé à l'Administrateur de ce site</li>
+           </ul>
+         </section>
+         En passant, si vous avez des commentaires à faire n'hésitez pas de me laisser un mail via mon adresse électronique
+         présent au pied de page! merci...<br>
+         <cite>"J'ai voulu établir le droit de tout oser"</cite>
+
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}

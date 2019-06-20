@@ -1,0 +1,20 @@
+{%  extends 'mise_en_page/base.html' %}
+{% block title %}Liste des étudiants{% endblock %}
+{% block content %}
+  <div class="listetudiant">
+  <div class="ib">
+    <div class="listheader">
+      <h1>Liste des Etudiants ({{etudiant|length}})</h1>
+    </div>
+    <div class="listcontent">
+      <ul>
+      {% for etudiants in etudiant %}
+        <li><a href="{% url 'voiretudiant' etudiants.id %}">{{ etudiants|title }}</a></li>
+        {% empty %}
+        <li>Pas d'étudiants enregistrés</li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+  </div>
+{% endblock %}

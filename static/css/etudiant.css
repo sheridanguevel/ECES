@@ -1,0 +1,33 @@
+.listetudiant{
+  text-align: center;
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+}
+.listetudiant .listheader{
+  width: 120%;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 12px;
+  height: 10%;
+  margin-left: 2%;
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+  background-color:  #156278;
+  color: white;
+}
+.listetudiant .listcontent{
+  text-align: justify;
+  margin-left: 2%;
+  width: 110%;
+  margin-top: 2%;
+}
+.listetudiant .listcontent ul li{
+  list-style: none;
+}
+.listetudiant .listcontent ul li a{
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+}
+.listetudiant .listcontent ul li a:hover{
+  color: white;
+  box-shadow: 5px 1px 1px 1px white;
+}
